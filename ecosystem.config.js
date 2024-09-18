@@ -1,11 +1,11 @@
 module.exports = {
   apps: [
     {
-      name: "server",
+      name: "tulbox",
       script: "npm",
       args: "start",
       env: {
-        HOST: "172.26.15.189",
+        HOST: "172.26.12.74",
         PORT: 3009,
         NODE_ENV: "production",
       },
