@@ -3,7 +3,7 @@ module.exports = {
     {
       name: "tulbox",
       script: "serve",
-      args: "-s build -l 3009",
+      args: ["-s", "build", "-l", "3009"],
       env: {
         NODE_ENV: "production",
       },
