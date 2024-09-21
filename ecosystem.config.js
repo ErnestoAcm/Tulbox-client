@@ -1,11 +1,12 @@
+require("dotenv").config();
+
 module.exports = {
   apps: [
     {
       name: "tulbox",
-      script: "npm",
-      args: "start",
+      script: "App.js",
       env: {
-        PORT: 3008,
+        PORT: process.env.PORT || 3009,
         NODE_ENV: "production",
       },
     },
